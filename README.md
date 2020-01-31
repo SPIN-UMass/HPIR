@@ -6,3 +6,4 @@ HPIR depends on [NTL](https://www.shoup.net/ntl/). We have tested HPIR with NTL 
 
 
 
+`g++ -g -O2 -std=c++11 -pthread -march=native foo.cpp -o foo -lntl -lgmp -lm`
